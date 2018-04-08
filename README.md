@@ -14,8 +14,9 @@ Can:
 # Interactive:
 
 $ python3 pycall.py 
-> Time between requests in seconds: 3
-> Url file (one address per line): test
+Time between requests in seconds: 3
+Url file (one address per line): test
+
 	Requesting - https://bitcoinfees.earn.com/api/v1/fees/recommended
 
 <Response [200]>
