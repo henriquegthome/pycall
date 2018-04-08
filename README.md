@@ -12,7 +12,7 @@ Can:
 # Example:
 
 # Interactive:
-
+```
 $ python3 pycall.py 
 Time between requests in seconds: 3
 Url file (one address per line): test
@@ -30,15 +30,15 @@ Url file (one address per line): test
 }
 
 Ended.
-
+```
 # Non-interactive
-
+```
 $ echo {"enabled": "yes","file": "test","wait": "5"} > config.json
 
 $ python3 pycall.py >> output.txt
-
+```
 # Inside output.txt
-
+```
 Running in non-interactive mode...
 
 	Requesting - https://bitcoinfees.earn.com/api/v1/fees/recommended
@@ -54,3 +54,4 @@ Running in non-interactive mode...
 }
 
 Ended.
+```
